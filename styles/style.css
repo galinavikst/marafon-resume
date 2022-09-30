@@ -1,0 +1,19 @@
+:root {
+}
+
+body {
+  font-family: Montserat, sans-serif;
+  background: #f5f7fa;
+}
+.page {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  margin: 0 auto;
+
+  background: #ffffff;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+aside {
+  background: #1e2939;
+}
