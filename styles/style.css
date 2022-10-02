@@ -5,6 +5,7 @@
   --accent-color: #fb6d3a;
   --secondary-text-color: #000;
   --primery-text-color: #595959;
+  --addition-text-color: #a8a8a8;
 }
 
 body {
@@ -81,38 +82,95 @@ aside p {
 }
 /* ..................main................ */
 .main {
-  margin-left: 80px;
+  margin: 100px 80px;
 }
-.about {
-  margin-top: 142px;
+.about,
+.projects,
+.work {
+  margin-bottom: 50px;
 }
-.prof {
+.position {
   font-weight: 700;
-  font-size: 14px;
-  line-height: calc(17 / 14);
-
+  font-size: 16px;
+  line-height: calc(20 / 16);
   color: var(--secondary-text-color);
 }
 .name {
   font-weight: 700;
   font-size: 45px;
   line-height: calc(55 / 45);
-  margin: 22px 0;
-
+  margin: 20px 0 25px;
   color: var(--secondary-text-color);
 }
 .text {
   font-size: 14px;
   line-height: 1.7;
-  width: 670px;
+  width: 600px;
   color: var(--primery-text-color);
-}
-.projects {
 }
 .title {
   font-weight: 700;
   font-size: 22px;
   line-height: calc(27 / 22);
-  margin-top: 50px;
+  margin-bottom: 10px;
+  color: var(--secondary-text-color);
+}
+.list-marks {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.71;
+  margin-right: 0;
+
+  color: var(--secondary-text-color);
+}
+.project-list,
+.duties-list {
+  padding: 0 0 0 17px;
+  margin-bottom: 20px;
+}
+.item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  color: var(--primery-text-color);
+}
+.link {
+  color: inherit;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.title-position,
+.study-place {
+  margin: 10px 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(20 / 16);
+
+  color: var(--secondary-text-color);
+}
+.company {
+  color: var(--accent-color);
+  text-transform: uppercase;
+}
+.timing {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: calc(15 / 12);
+
+  color: var(--addition-text-color);
+}
+.timing-decor {
+  color: var(--secondary-text-color);
+}
+.study-place {
+  color: var(--accent-color);
+  margin: 10px 0;
+}
+.master-degree {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(17 / 14);
+
   color: var(--secondary-text-color);
 }
