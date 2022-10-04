@@ -62,6 +62,10 @@ aside p {
 .tel {
   text-decoration: none;
 }
+.contacts-data:hover,
+.contacts-data:focus {
+  opacity: 0.8;
+}
 .aside.soft-skills,
 .aside.contacts,
 .aside.languages,
