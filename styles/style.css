@@ -181,7 +181,7 @@ aside p {
 .study-place {
   color: var(--accent-color);
 }
-.master-degree {
+.course {
   font-weight: 700;
   font-size: 14px;
   line-height: calc(17 / 14);
