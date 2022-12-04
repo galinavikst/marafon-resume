@@ -40,15 +40,8 @@ aside p {
   margin-bottom: 0px;
   margin-top: 0;
 }
-.contact-type {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: calc(24 / 14);
-  margin-right: 10px;
-}
 .contacts-list {
-  margin-left: 40px;
+  margin: 0 20px 40px 40px;
 }
 .aside .tel,
 .aside .mail,
@@ -59,12 +52,19 @@ aside p {
   color: inherit;
   opacity: 0.5;
 }
+.fa {
+  margin-right: 10px;
+  font-size: 15px;
+  color: var(--accent-color);
+}
+.cont:hover > .fa {
+  color: var(--page-bg-white-color);
+}
+.cont:hover > .contacts-data {
+  opacity: 0.8;
+}
 .tel {
   text-decoration: none;
-}
-.contacts-data:hover,
-.contacts-data:focus {
-  opacity: 0.8;
 }
 .aside.soft-skills,
 .aside.contacts,
