@@ -40,6 +40,9 @@ aside p {
   margin-bottom: 0px;
   margin-top: 0;
 }
+.location {
+  margin: 0 0 0 40px;
+}
 .contacts-list {
   margin: 0 20px 40px 40px;
 }
@@ -81,6 +84,7 @@ aside p {
 .hobbies-item {
   color: var(--accent-color);
 }
+.location,
 .soft-item-text,
 .tech-item-text,
 .lang-item-text,
